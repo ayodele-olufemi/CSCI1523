@@ -1,0 +1,45 @@
+'''
+Program: 20211004
+Author: Ayodele Olufemi
+Date: 10/04/2021
+Purpose: Illustrate string usage, cipher coding and file access
+'''
+
+import math
+
+# Create a string implicitly
+
+s = 'Ayodele Emmanuel Olufemi'
+
+print("Length of string: ", len(s))
+
+# Create a list 
+
+l = ["Ayodele", "Emmanuel", "Olufemi"]
+
+for s1 in l:
+	print(s1)
+
+
+# Now exercise soem string handling operators and functions
+
+# Print a character by index in a string
+
+print("print the 5th character in s: ", s[4])
+
+
+# Print a character based on a negative index
+
+print("pring a character in s, -2 places from the end of the string: ", s[-2])
+
+
+# Let's look at a range 
+
+print("print a range in s: ", s[0:8])
+
+
+# Let's test the "in" operator
+
+print("Is 'fact' in s: ", "fact" in s)
+
+print("Is 'yode' in s: ", "yode" in s)
